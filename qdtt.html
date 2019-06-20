@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quydoitiente</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td style="color: red">Amount</td>
+        <td>From currency</td>
+        <td>To currency</td>
+    </tr>
+    <tr>
+        <td><input id="sotien" type="number"></td>
+
+        <td>
+            <select id="money1">
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+                <option value="0.8">EUR</option>
+            </select>
+        </td>
+        <td>
+            <select id="money2">
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+                <option value="0.8">EUR</option>
+            </select>
+        </td>
+        <td>
+            <button type="button" onclick="convert()" style="background: purple">Convert</button>
+        </td>
+    </tr>
+</table>
+        <p>Result</p>
+    <P id="result">day la so tien</P>
+<script src="qdtt.js"></script>
+</body>
+</html>
